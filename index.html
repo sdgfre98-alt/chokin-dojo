@@ -609,6 +609,55 @@
     margin-bottom:6px;
   }
 }
+/* ===== Mobile Layout Fix ===== */
+@media (max-width: 480px) {
+
+  .level-area {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+  }
+
+  .level-icon {
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 42px;
+  }
+
+  .level-detail .lv-num {
+    font-size: 22px;
+  }
+
+  .exp-gauge-bar {
+    height: 12px;
+  }
+
+  .boss-hp-row {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .boss-hp-bar {
+    width: 100%;
+    max-width: none;
+    height: 14px;
+  }
+
+  .boss-hp-text {
+    font-size: 10px;
+  }
+
+  .menu-area {
+    flex-wrap: wrap;
+  }
+
+  .menu-link {
+    font-size: 12px;
+    padding: 8px 4px;
+  }
+}
 
   </style>
 </head>
@@ -1086,3 +1135,4 @@
   </script>
 </body>
 </html>
+
